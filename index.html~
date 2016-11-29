@@ -101,7 +101,7 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 									</a>
 									<ul class="dropdown-menu ">
 								        <li><a id="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse.in" href="#/ancestry/DDwY7OKPg48OEGEaCSYqy" class="ng-binding">Ancestry Percentages</a></li>								
-										<li><a id="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse.in" href="#/ancestrytree/13p1I2Ti8OACeCc6O4iW0i" class="ng-binding">Ancestry Tree</a></li>
+										<li><a id="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse.in" href="similemedia.github.io/wisdom-panel/ancestrytree.html" class="ng-binding">Ancestry Tree</a></li>
 										
 										<!-- ngIf: breedTests == true -->								
 									</ul>
@@ -131,7 +131,7 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
                                         </li>
 									</ul>
 								</li>
-								<li class="dropdown">
+								<!--li class="dropdown">
 								<!-- ngIf: !getVersionFeature('Traits') -->
  								<!-- ngIf: getVersionFeature('Traits') --><a ng-if="getVersionFeature('Traits')" data-toggle="dropdown" href="#/health/3AbUuyPp4cqE0oCK0YIeOW" class="ng-binding ng-scope">HEALTH &amp; TRAITS</a><!-- end ngIf: getVersionFeature('Traits') -->
 									<ul class="dropdown-menu">
@@ -152,7 +152,7 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 										<li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#/glossary/5IUHxDSDT2ASMIwIGkgMis">Glossary</a></li>
 									</ul>
 								</li>
-								<li class="dropdown" data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#/notes/4L9cpL4sNqEAKIw2GKS0aG" class="ng-binding">NOTIFICATIONS</a></li>
+								<li class="dropdown" data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#/notes/4L9cpL4sNqEAKIw2GKS0aG" class="ng-binding">NOTIFICATIONS</a></li-->
 							</ul>
                             <div class="col-lg-3 col-md-3 col-xs-6 navbar-text dropdown-toggle ng-binding">Sample ID <b>#</b>T117576</div>
 <!--                             <p  class="dropdown navbar-text" style="right:280px;" >Sample ID <b>&#35;</b>{{sampleID}}</p> -->
