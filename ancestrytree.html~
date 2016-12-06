@@ -123,25 +123,7 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
                                         </li>
 									</ul>
 								</li>
-								<li class="dropdown">
-								<!-- ngIf: !getVersionFeature('Traits') -->
- 								<!-- ngIf: getVersionFeature('Traits') --><a ng-if="getVersionFeature('Traits')" data-toggle="dropdown" href="#/health/3AbUuyPp4cqE0oCK0YIeOW" class="ng-binding ng-scope">HEALTH &amp; TRAITS</a><!-- end ngIf: getVersionFeature('Traits') -->
-									<ul class="dropdown-menu">
-										<!-- ngIf: getVersionFeature('MDR1') === true --><li data-toggle="collapse" data-target=".navbar-collapse.in" ng-if="getVersionFeature('MDR1') === true" class="ng-scope"><a href="#/multidrugsensitivity/1lsPJLbeNaIwA8Wa0CsoCe" class="ng-binding">Multidrug Sensitivity</a></li><!-- end ngIf: getVersionFeature('MDR1') === true -->
-										<!-- ngIf: getVersionFeature('EIC') --><li data-toggle="collapse" data-target=".navbar-collapse.in" ng-if="getVersionFeature('EIC')" class="ng-scope"><a href="#/eic/6GTTMVG2T6YecEAKSiwMAg" class="ng-binding">Exercise-induced Collapse</a></li><!-- end ngIf: getVersionFeature('EIC') --> 
-										<li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#/adultweight/6ruWyupC7YaE8MaEI888ym" class="ng-binding">Adult Weight</a></li>
-										<!-- ngIf: getVersionFeature('Traits') --><li data-toggle="collapse" data-target=".navbar-collapse.in" ng-if="getVersionFeature('Traits')" class="ng-scope"><a href="#/traits/5V6RjsO252AiKe0kAQc0YM" class="ng-binding">Traits</a></li><!-- end ngIf: getVersionFeature('Traits') -->
-									</ul></li>								
-									<li class="dropdown">
-								    <a data-toggle="dropdown" class="dropdown-toggle ng-binding" href="#/learnmore/1LscpKCAisMGGCeGuSYEEE">LEARN MORE</a>
-									<ul class="dropdown-menu ">
-                                        <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#/thescience/2hsJFF1pAgAOSyIwsiusYc" class="ng-binding">The Science</a></li>
-                                        <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#/technology/1oS6m46Yfy8WEUs0wSe2Kc">The Technology</a></li>
-                                        <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#/inheritance/53eIuFYFZK8W4Cg6YYwAeO">How Traits Are Inherited</a></li>
-										<li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#/faqs/7pByoRRQ76igSCsUYeYgwA">FAQs</a></li>
-										<li data-toggle="collapse" data-target=".navbar-collapse.in"><a onclick="window.open('http://sheltermedicine.vetmed.ufl.edu/library/research-studies/current-studies/dog-breeds/', '_blank')" class="ng-binding">Breed Identification</a></li>
-										<!-- ngIf: getVersionFeature('Traits') --><li data-toggle="collapse" data-target=".navbar-collapse.in" ng-if="getVersionFeature('Traits')" class="ng-scope"><a href="#/learnmoreTraits/1URIzGqqMQqQoW6KkyYyMG">Traits</a></li><!-- end ngIf: getVersionFeature('Traits') -->
-										<li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#/glossary/5IUHxDSDT2ASMIwIGkgMis">Glossary</a></li>
+							
 									</ul>
 								</li>
 								<li class="dropdown" data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#/notes/4L9cpL4sNqEAKIw2GKS0aG" class="ng-binding">NOTIFICATIONS</a></li>

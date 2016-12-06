@@ -100,8 +100,8 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 								    <a data-toggle="dropdown" class="dropdown-toggle  ng-binding" href="#/ancestry/DDwY7OKPg48OEGEaCSYqy">ANCESTRY 
 									</a>
 									<ul class="dropdown-menu ">
-								        <li><a id="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse.in" href="#/ancestry/DDwY7OKPg48OEGEaCSYqy" class="ng-binding">Ancestry Percentages</a></li>								
-										<li><a id="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse.in" href="similemedia.github.io/wisdom-panel/ancestrytree.html" class="ng-binding">Ancestry Tree</a></li>
+								        <!--li><a id="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse.in" href="#/ancestry/DDwY7OKPg48OEGEaCSYqy" class="ng-binding">Ancestry Percentages</a></li-->								
+									<li><a id="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse.in" href="https://similemedia.github.io/wisdom-panel/" class="ng-binding">Ancestry Tree</a></li>
 										
 										<!-- ngIf: breedTests == true -->								
 									</ul>
@@ -131,28 +131,7 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
                                         </li>
 									</ul>
 								</li>
-								<!--li class="dropdown">
-								<!-- ngIf: !getVersionFeature('Traits') -->
- 								<!-- ngIf: getVersionFeature('Traits') --><a ng-if="getVersionFeature('Traits')" data-toggle="dropdown" href="#/health/3AbUuyPp4cqE0oCK0YIeOW" class="ng-binding ng-scope">HEALTH &amp; TRAITS</a><!-- end ngIf: getVersionFeature('Traits') -->
-									<ul class="dropdown-menu">
-										<!-- ngIf: getVersionFeature('MDR1') === true --><li data-toggle="collapse" data-target=".navbar-collapse.in" ng-if="getVersionFeature('MDR1') === true" class="ng-scope"><a href="#/multidrugsensitivity/1lsPJLbeNaIwA8Wa0CsoCe" class="ng-binding">Multidrug Sensitivity</a></li><!-- end ngIf: getVersionFeature('MDR1') === true -->
-										<!-- ngIf: getVersionFeature('EIC') --><li data-toggle="collapse" data-target=".navbar-collapse.in" ng-if="getVersionFeature('EIC')" class="ng-scope"><a href="#/eic/6GTTMVG2T6YecEAKSiwMAg" class="ng-binding">Exercise-induced Collapse</a></li><!-- end ngIf: getVersionFeature('EIC') --> 
-										<li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#/adultweight/6ruWyupC7YaE8MaEI888ym" class="ng-binding">Adult Weight</a></li>
-										<!-- ngIf: getVersionFeature('Traits') --><li data-toggle="collapse" data-target=".navbar-collapse.in" ng-if="getVersionFeature('Traits')" class="ng-scope"><a href="#/traits/5V6RjsO252AiKe0kAQc0YM" class="ng-binding">Traits</a></li><!-- end ngIf: getVersionFeature('Traits') -->
-									</ul></li>								
-									<li class="dropdown">
-								    <a data-toggle="dropdown" class="dropdown-toggle ng-binding" href="#/learnmore/1LscpKCAisMGGCeGuSYEEE">LEARN MORE</a>
-									<ul class="dropdown-menu ">
-                                        <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#/thescience/2hsJFF1pAgAOSyIwsiusYc" class="ng-binding">The Science</a></li>
-                                        <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#/technology/1oS6m46Yfy8WEUs0wSe2Kc">The Technology</a></li>
-                                        <li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#/inheritance/53eIuFYFZK8W4Cg6YYwAeO">How Traits Are Inherited</a></li>
-										<li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#/faqs/7pByoRRQ76igSCsUYeYgwA">FAQs</a></li>
-										<li data-toggle="collapse" data-target=".navbar-collapse.in"><a onclick="window.open('http://sheltermedicine.vetmed.ufl.edu/library/research-studies/current-studies/dog-breeds/', '_blank')" class="ng-binding">Breed Identification</a></li>
-										<!-- ngIf: getVersionFeature('Traits') --><li data-toggle="collapse" data-target=".navbar-collapse.in" ng-if="getVersionFeature('Traits')" class="ng-scope"><a href="#/learnmoreTraits/1URIzGqqMQqQoW6KkyYyMG">Traits</a></li><!-- end ngIf: getVersionFeature('Traits') -->
-										<li data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#/glossary/5IUHxDSDT2ASMIwIGkgMis">Glossary</a></li>
-									</ul>
-								</li>
-								<li class="dropdown" data-toggle="collapse" data-target=".navbar-collapse.in"><a href="#/notes/4L9cpL4sNqEAKIw2GKS0aG" class="ng-binding">NOTIFICATIONS</a></li-->
+								
 							</ul>
                             <div class="col-lg-3 col-md-3 col-xs-6 navbar-text dropdown-toggle ng-binding">Sample ID <b>#</b>T117576</div>
 <!--                             <p  class="dropdown navbar-text" style="right:280px;" >Sample ID <b>&#35;</b>{{sampleID}}</p> -->
@@ -213,6 +192,9 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 			<p class="genie ng-binding" style="style=border: red;word-wrap: break-word; color: rgb(151, 215, 0) ">CGCTAGGGAGTTACAACGNNTTTTCTGGAAATAGAGTTACTTCTCTCCCTCCCTNNAANNNNCTCCAACTCCAACGGGAGTTAAAGTTACGGCTGGNNAACGAGAGTTGTAGCTTTCTAGATGGAGGTCTNNACCTAGCTCTAGNNGGGGTTAAAACGGTCGGGACCCAGAANNCTAGTTCTGGATCCAGGGAAGGAGGGCTAAAGCTAGAGACCTAGGGGGCCCCCCCTCTAATTCTCCAAAACTCCGTGGAGCTAGTTNNCCAGNNNNNNGGAAAGCCCTCTAANNCCTTAAAACCCCCGCCGGAACTCTGGATAGCTGGAGAACTTTTTGGAGGTNNAAAAAAAGAGAAAAAACCAGCTCCACTTCCATGGAGGTCCCCGGAANNGGAGCCCCGGCTCTTTTTGTAGCCCCCCACCCAANNAACTCCCCGGNNCTAGACGTAGCTCGATCTGGAAAGAGAGAGTTNNAGAAGTAACCAGCTCTAGNNCTAATTTTAGCTCGATAGAGNNNNAATTAACCGGGGAGCTAGAGCCCTNNNNCTNNCTNNCTCCTTNNACCTAGCTTTGGGGAANNNNGGTTCTAGNNCTCCAGTTAAAAAACGGGAGGGTTAACGAGCTGGCCAGNNCCNNACTTAACCAC</p>
 			<!-- 		<p class="genie" style="border: red" id="genie"></p> -->
 			<p class="paratext ng-binding">This is a portion of the code -or "fingerprint"- from your dog's DNA that we use as a unique identifier.</p>
+			<p class="paratext ng-binding"> <b> Congratulations Beau Barney is applicable for our research program! </b>
+At wisdom panel have tested the genetics of tens of thousands of dogs since we started business.  Beau Barney has a very unique combination of genetic diversity and quality. His results are trully one of a kind and superior to 99.9999% of the tens of thousands of dogs we have tested so far. We believe his genetic makeup could be very useful to society's wellbeing and safety if properly replicated. In addition, all though these results are only preliminary we believe to have found the last remnants an animal that resembles the unicorn of medieval folklore. With the upmost urgency we implore to apply Beau Bear to be part of our genetic cloning program by emailing us at research@marsveterinary.com or calling 888-K9 PET TEST (888-597-3883). 
+Please include your sample ID number and name in the email subject line for a faster response.
 		</div>
 	</div>
 	<!--   {{stars}} -->
